@@ -1,11 +1,14 @@
 /* Global CSS */
 
-body,
-html {
-    overflow-x: hidden!important
+html,
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    overflow-x: hidden !important;
+    text-rendering: optimizeLegibility;
 }
 
 /* Home CSS */
+
 #home-header {
     background: #002B5E;
     background-size: cover;
@@ -44,7 +47,7 @@ html {
 
 .dl-header {
     background: #0288D1;
-    background: linear-gradient(to bottom,#0288D1,#283593);
+    background: linear-gradient(to bottom, #0288D1, #283593);
     background-size: cover;
     background-position: center;
     padding-top: 120px;
@@ -67,7 +70,7 @@ html {
 
 .rl-header {
     background: #616161;
-    background: linear-gradient(to top,#212121,#616161);
+    background: linear-gradient(to top, #212121, #616161);
     background-size: cover;
     background-position: center;
     padding-top: 120px;
@@ -81,7 +84,7 @@ html {
 
 .rl-node-list {
     background: #212121;
-    background: linear-gradient(to top,#616161,#212121);
+    background: linear-gradient(to top, #616161, #212121);
     background-size: cover;
     background-position: center;
     padding-top: 80px;
@@ -90,38 +93,10 @@ html {
 
 .rl-divider-1 {
     background: #757575;
-    background: linear-gradient(to top,#757575,#616161);
+    background: linear-gradient(to top, #757575, #616161);
     background-size: cover;
     background-position: center;
     height: 60px;
-}
-
-.relay-partner-card {
-    height: 120px;
-    width: 100%;
-}
-
-.rl-partner-logo {
-    height: auto!important;
-    width: 70px!important;
-}
-
-@media (min-width: 800px) {
-    .rl-partner-logo {
-        height: auto!important;
-        width: 140px!important;
-    }
-}
-
-@media (min-width: 1024px) {
-    .rl-partner-logo {
-        height: auto!important;
-        width: 120px!important;
-    }
-}
-
-.relay-partner-card-width {
-    width: 100%;
 }
 
 .relay-digital-earth {
@@ -144,24 +119,22 @@ html {
 
 .price-header {
     background: #283593;
-    background: linear-gradient(to top,#7986CB,#283593);
+    background: linear-gradient(to top, #7986CB, #283593);
     background-size: cover;
     background-position: center;
     padding-top: 140px;
     padding-bottom: 140px;
 }
 
-.price-card-height {
-    height: 380px;
-}
-
 /* Info CSS */
+
 .info-header {
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
 /* ToS CSS */
+
 #tos-header {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -171,7 +144,7 @@ html {
 
 .partner-header {
     background: #EF5350;
-    background: linear-gradient(to top,#EF9A9A,#EF5350);
+    background: linear-gradient(to top, #EF9A9A, #EF5350);
     background-size: cover;
     background-position: center;
     padding-top: 140px;
@@ -179,6 +152,7 @@ html {
 }
 
 /* Footer CSS */
+
 footer {
     padding: 16px 0;
     background-color: #303030;
